@@ -289,15 +289,15 @@
     <!-- Hero Section -->
     <section id="hero" class="hero section dark-background">
 
-        {{-- <video class="hero-bg" autoplay muted loop playsinline preload="auto">
+        <video class="hero-bg" autoplay muted loop playsinline preload="auto">
             <source src="{{ asset('frontAssets/video/bg_video2.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
-        </video> --}}
+        </video>
 
         <!-- Overlay Shade -->
         <div class="overlay"></div>
 
-        {!! \App\Helpers\Helper::optimizeImage('frontAssets/img/world-dotted-map.png', 'Header Image', 'hero-bg') !!}
+        {{-- {!! \App\Helpers\Helper::optimizeImage('frontAssets/img/world-dotted-map.png', 'Header Image', 'hero-bg') !!} --}}
         {{-- <img src="{{ asset('frontAssets/img/world-dotted-map.png') }}" alt="" class="hero-bg" data-aos="fade-in"> --}}
 
         <div class="container">
@@ -350,81 +350,6 @@
                 </div>
 
                 <div class="col-lg-4 order-1 order-lg-2 hero-img" data-aos="zoom-out">
-                    {{-- <form action="{{ route('frontend.get-a-quote.submit') }}" method="post" class="form-search mb-3" data-aos="fade-up" data-aos-delay="200">
-                        @csrf
-                        <div class="row">
-                            <div class="col-md-12 mb-2">
-                                <input type="text" name="name" autofocus
-                                    class="form-control @error('name') is-invalid @enderror" placeholder="Your Name"
-                                    required id="name" value="{{ old('name') }}">
-                                @error('name')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-
-                            <div class="col-md-12 mb-2">
-                                <input type="email" class="form-control @error('email') is-invalid @enderror"
-                                    name="email" placeholder="Your Email" required id="email"
-                                    value="{{ old('email') }}">
-                                @error('email')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-
-                            <div class="col-md-12 mb-2">
-                                <input type="text" class="form-control @error('phone') is-invalid @enderror"
-                                    name="phone" placeholder="Phone" required id="phone" value="{{ old('phone') }}">
-                                @error('phone')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-
-                            <div class="col-md-12 mb-2">
-                                <input type="text" name="pickup_location"
-                                    class="form-control @error('pickup_location') is-invalid @enderror" placeholder="Pickup"
-                                    required id="pickup_location" value="{{ old('pickup_location') }}">
-                                @error('pickup_location')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-
-                            <div class="col-md-12 mb-2">
-                                <input type="text" name="delivery_location"
-                                    class="form-control @error('delivery_location') is-invalid @enderror"
-                                    placeholder="Drop-off" required id="delivery_location"
-                                    value="{{ old('delivery_location') }}">
-                                @error('delivery_location')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-
-                            <div class="col-md-12 mb-2">
-                                <input type="text" name="zip_code"
-                                    class="form-control @error('zip_code') is-invalid @enderror" placeholder="Zip Code"
-                                    required id="zip_code" value="{{ old('zip_code') }}">
-                                @error('zip_code')
-                                    <span class="invalid-feedback" role="alert">
-                                        <strong>{{ $message }}</strong>
-                                    </span>
-                                @enderror
-                            </div>
-
-                            <div class="col-12 text-center">
-                                <button type="submit" class="btn btn-primary">Submit Quote</button>
-                            </div>
-
-                        </div>
-                    </form> --}}
                     <div class="form-section">
                         <form id="shippingForm" action="{{ route('frontend.get-a-quote.submit') }}" method="post">
                             @csrf
