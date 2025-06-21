@@ -397,7 +397,7 @@
             class="fas fa-arrow-up"></i></a>
     <a href="tel:{{ \App\Helpers\Helper::getCompanyPhone() }}" target="_blank" id="whatsapp-btn"
         class="whatsapp-btn d-flex align-items-center justify-content-center">
-        <i class="fab fa-whatsapp"></i>
+        <i class="fas fa-phone-alt"></i>
     </a>
 
     <!-- Preloader -->

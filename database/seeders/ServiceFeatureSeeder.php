@@ -105,7 +105,7 @@ class ServiceFeatureSeeder extends Seeder
 
                     <h3>How the Open Carrier Process Works</h3>
                     <ol>
-                        <li><strong>Get a Free Quote:</strong> Submit your details online or call us to receive a competitive shipping estimate.</li>
+                        <li><strong>Request Quote:</strong> Submit your details online or call us to receive a competitive shipping estimate.</li>
                         <li><strong>Scheduling:</strong> We match you with a carrier based on your timeframe and location preferences.</li>
                         <li><strong>Pickup:</strong> The carrier arrives at your location (or as close as possible) to load your vehicle onto the trailer.</li>
                         <li><strong>Transport:</strong> Your car travels securely with others towards the destination.</li>

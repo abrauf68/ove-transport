@@ -471,7 +471,7 @@
                 1: 'Vehicle Details  <i class="fa fa-arrow-right"></i>',
                 2: 'Confirmation Details  <i class="fa fa-arrow-right"></i>',
                 3: 'Review Details  <i class="fa fa-arrow-right"></i>',
-                4: 'Calculate Cost'
+                4: 'Submit Form'
             };
             $('#nextBtn').html(buttonLabels[step]);
         }

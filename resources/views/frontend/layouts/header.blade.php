@@ -150,7 +150,7 @@
         </nav>
 
         <a class="btn-getstarted" style="font-size: 12px; white-space: nowrap;"
-            href="{{ route('frontend.get-a-quote') }}">Get a Free Quote</a>
+            href="{{ route('frontend.get-a-quote') }}">Request Quote</a>
 
     </div>
 </header>

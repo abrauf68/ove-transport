@@ -141,7 +141,7 @@ class FormSubmissionController extends Controller
                 }
             }
 
-            return redirect()->route('frontend.get-a-quote.details', $quote->quoteId)->with('success', 'Your Quote has been submitted successfully!');
+            return redirect()->back()->with('success', 'Your Quote has been submitted successfully!');
         } catch (\Exception $e) {
             Log::error($e->getMessage());
             return redirect()->back()->with('error', 'An error occurred while sending your message. Please try again later.');
