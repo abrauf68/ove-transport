@@ -290,7 +290,7 @@
     <section id="hero" class="hero section dark-background">
 
         <video class="hero-bg" autoplay muted loop playsinline preload="auto">
-            <source src="{{ asset('frontAssets/video/bg_video2.mp4') }}" type="video/mp4">
+            <source src="{{ asset('frontAssets/video/bg_video1.mp4') }}" type="video/mp4">
             Your browser does not support the video tag.
         </video>
 
