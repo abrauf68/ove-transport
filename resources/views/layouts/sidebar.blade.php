@@ -50,7 +50,7 @@
             <li class="menu-item {{ request()->routeIs('dashboard.why-us.*') ? 'active' : '' }}">
                 <a href="{{ route('dashboard.why-us.index') }}" class="menu-link">
                     <i class="menu-icon tf-icons ti ti-shield-check"></i>
-                    <div>{{ __('Why Car Carriage') }}</div>
+                    <div>{{ __('Why OVE Transport') }}</div>
                 </a>
             </li>
         @endcan

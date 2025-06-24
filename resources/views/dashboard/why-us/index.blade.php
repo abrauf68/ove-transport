@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title', __('Why Car Carriage'))
+@section('title', __('Why OVE Transport'))
 
 @section('css')
     <style>
@@ -23,11 +23,11 @@
 
 
 @section('breadcrumb-items')
-    <li class="breadcrumb-item active">{{ __('Why Car Carriage') }}</li>
+    <li class="breadcrumb-item active">{{ __('Why OVE Transport') }}</li>
 @endsection
 @section('content')
     <div class="container-xxl flex-grow-1 container-p-y">
-        <!-- Why Car Carriage List Table -->
+        <!-- Why OVE Transport List Table -->
         <div class="card">
             <div class="card-header">
                 @canany(['create why us'])

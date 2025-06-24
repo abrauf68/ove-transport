@@ -32,7 +32,7 @@
             <li><a href="{{ route('frontend.home') }}">Home</a></li>
             <li><a href="{{ route('frontend.about') }}">About Us</a></li>
             <li><a href="{{ route('frontend.services') }}">Services</a></li>
-            <li><a href="{{ route('frontend.pricing') }}">Pricing</a></li>
+            {{-- <li><a href="{{ route('frontend.pricing') }}">Pricing</a></li> --}}
             <li><a href="{{ route('frontend.contact') }}">Contact</a></li>
           </ul>
         </div>

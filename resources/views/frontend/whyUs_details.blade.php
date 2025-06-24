@@ -7,12 +7,12 @@
 <!-- Page Title -->
 @section('page_title')
     @include('frontend.layouts.partials.page_title', [
-        'title' => 'Why Car Carriage',
+        'title' => 'Why OVE Transport',
         'description' =>
             'Discover the range of solutions we offer to help your business grow, streamline operations, and reach new heights.',
         'breadcrumbs' => [
             ['name' => 'Home', 'url' => route('frontend.home')],
-            ['name' => 'Why Car Carriage'],
+            ['name' => 'Why OVE Transport'],
             ['name' => $whyUs->name],
         ],
     ])

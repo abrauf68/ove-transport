@@ -11,9 +11,8 @@
     <div class="container">
 
         <!-- Feature Item 1 -->
-        <div class="row gy-4 align-items-center features-item">
+        {{-- <div class="row gy-4 align-items-center features-item">
             <div class="col-md-5 d-flex align-items-center" data-aos="zoom-out" data-aos-delay="100">
-                {{-- <img src="{{ asset('frontAssets/img/gps.jpg') }}" class="img-fluid" alt="GPS Tracking"> --}}
                 {!! \App\Helpers\Helper::optimizeImage('frontAssets/img/gps.jpg', 'GPS Tracking', 'img-fluid') !!}
             </div>
             <div class="col-md-7" data-aos="fade-up" data-aos-delay="100">
@@ -28,7 +27,8 @@
                 </ul>
 
             </div>
-        </div><!-- End Feature Item -->
+        </div> --}}
+        <!-- End Feature Item -->
 
         <!-- Feature Item 2 -->
         <div class="row gy-4 align-items-center features-item">

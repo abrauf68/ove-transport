@@ -8,7 +8,7 @@
 
 
 @section('breadcrumb-items')
-    <li class="breadcrumb-item"><a href="{{route('dashboard.why-us.index')}}">{{ __('Why Car Carriage') }}</a></li>
+    <li class="breadcrumb-item"><a href="{{route('dashboard.why-us.index')}}">{{ __('Why OVE Transport') }}</a></li>
     <li class="breadcrumb-item active">{{ __('Create') }}</li>
 @endsection
 @section('content')

@@ -3,7 +3,7 @@
         <div class="topbar-left d-flex align-items-center gap-3">
             <a href="{{ route('frontend.about') }}" class="topbar-link">About</a>
             <a href="{{ route('frontend.contact') }}" class="topbar-link">Contact</a>
-            <a href="{{ route('frontend.pricing') }}" class="topbar-link">Pricing</a>
+            {{-- <a href="{{ route('frontend.pricing') }}" class="topbar-link">Pricing</a> --}}
         </div>
         <div class="topbar-center">
             <div class="ticker-wrapper">
@@ -115,7 +115,7 @@
                 @endif
                 <li class="dropdown">
                     <a href="#">
-                        <span>WHY CAR CARRIAGE</span> <i class="fas fa-chevron-down toggle-dropdown"></i>
+                        <span>WHY OVE TRANSPORT</span> <i class="fas fa-chevron-down toggle-dropdown"></i>
                     </a>
 
                     <div class="dropdown-menu">
@@ -192,7 +192,7 @@
             @endforeach
         @endif
         <li class="has-dropdown">
-            <a href="#">WHY CAR CARRIAGE <i class="fas fa-chevron-down float-end"></i></a>
+            <a href="#">WHY OVE TRANSPORT <i class="fas fa-chevron-down float-end"></i></a>
             <ul class="submenu list-unstyled">
                 @if (count(\App\Helpers\Helper::getCompanyInfoCategories()) > 0)
                     @foreach (\App\Helpers\Helper::getCompanyInfoCategories() as $companyInfoCategory)

@@ -566,7 +566,7 @@
     @include('frontend.sections.features')
     <!-- /Features Section -->
 
-    @include('frontend.sections.pricing')
+    {{-- @include('frontend.sections.pricing') --}}
     @include('frontend.sections.testimonials')
     @include('frontend.sections.faqs')
     <div data-aos="fade-up" data-aos-delay="200">
