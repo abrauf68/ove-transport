@@ -17,9 +17,9 @@
                         <a href="{{ route('frontend.services', $service->slug) }}">
                             <div class="card">
                                 <div class="card-img">
-                                    {!! \App\Helpers\Helper::optimizeImage('{{ $service->meta_image }}', '{{ $service->name }}', 'img-fluid') !!}
-                                    {{-- <img src="{{ asset($service->meta_image) }}" alt="{{ $service->name }}"
-                                        class="img-fluid"> --}}
+                                    {{-- {!! \App\Helpers\Helper::optimizeImage('{{ $service->meta_image }}', '{{ $service->name }}', 'img-fluid') !!} --}}
+                                    <img src="{{ asset($service->meta_image) }}" alt="{{ $service->name }}"
+                                        class="img-fluid">
                                 </div>
                                 <h3>{{ $service->name }}</h3>
                                 <p>{{ $service->meta_description }}</p>
