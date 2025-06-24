@@ -45,9 +45,9 @@
                 </div>
 
                 <div class="col-lg-8" data-aos="fade-up" data-aos-delay="200">
-                    {!! \App\Helpers\Helper::optimizeImage('{{ $service->main_image }}', '{{ $service->name }}', 'img-fluid services-img') !!}
-                    {{-- <img src="{{ asset($service->main_image) }}" alt="{{ $service->name }}"
-                        class="img-fluid services-img"> --}}
+                    {{-- {!! \App\Helpers\Helper::optimizeImage('{{ $service->main_image }}', '{{ $service->name }}', 'img-fluid services-img') !!} --}}
+                    <img src="{{ asset($service->main_image) }}" alt="{{ $service->name }}"
+                        class="img-fluid services-img">
                     {!! $service->details !!}
                 </div>
 
